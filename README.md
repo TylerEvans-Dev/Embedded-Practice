@@ -1,20 +1,48 @@
 # Practice questions for embedded interview prep.
 
 
-## Question 1 (specific to Aerospace role)
+## Question 1 (DO-178)
+what are the various 5 levels of prior. for DO-178 please give examples
 
-## Question 2 (specific to Interupts)
+## Question 2 (Systems)
+why would you choose freertos over Zephyr?
+
+## Question 2.1 
+what are some diff. network Topology setups?
 
 
-## Question 4 (JTAG)
+## Question 3 (Specific To Interupts)
+How do you handle shared variables between an Interrupt Service Routine (ISR) and the main background loop to prevent race conditions?
 
-## Question 5 (Freertos Q With example end exe.)
+<a href ="">ans sol</a>
+
+## Question 3 (ANSI/MISRA C)
+
+which of the following voliates the ANSI MISRA C standard
+
+a '
+    int v;
+    int x = v++
+    '
+b  '
+    int v;
+    int x = v;
+    v++
+    '
+c 'int q;
+  int j;
+  j--;'
+
+## Question 5 coded example. see practice_question.c in main
+
+
+
 
 
 
 </br>
 
-## Gen. Questions if there is addtional desire for review. 
+# Gen. Questions if there is addtional desire for review. 
 not needed but good to consider answers will be linked below. if you have time could be good. 
 ## Question (physical)
  what is a pullup/pulldown resistor and what values are the resitors typically in the range of
