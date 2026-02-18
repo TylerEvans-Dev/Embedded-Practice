@@ -19,23 +19,25 @@ How do you handle shared variables between an Interrupt Service Routine (ISR) an
 ## Question 3 (ANSI/MISRA C)
 
 which of the following voliates the ANSI MISRA C standard
-<ul>
-    <li>a '
+<ul id="really bad don't do this">
+    <li>
+        a '
         int v;
         int x = v++
         '
     </li>
-    <li>b  '
-    int v;
-    int x = v;
-    v++
-    '
+    <li>
+        b  '
+        int v;
+        int x = v;
+        v++
+        '
     </li> 
     <li> 
-    c 'int q;
-    int j;
-    j--;'
-    <li> 
+        c 'int q;
+        int j;
+        j--;'
+    </li> 
 </ul>
 ## Question 5 coded example. see practice_question.c in main
 
