@@ -14,21 +14,21 @@ what are some diff. network Topology setups?
 ## Question 3 (Specific To Interupts)
 How do you handle shared variables between an Interrupt Service Routine (ISR) and the main background loop to prevent race conditions?
 
-<a href ="">ans sol</a>
 
 ## Question 3 (ANSI/MISRA C)
 
-which of the following voliates the ANSI MISRA C standard
+which of the following violates the ANSI MISRA C standard
 <ul id="really bad don't do this">
     <li>
         a '
-        int v;
+        int v = 0;
         int x = v++
         '
     </li>
     <li>
         b  '
-        int v;
+        int v = 0;
+        int x = 0;
         int x = v;
         v++
         '
@@ -39,6 +39,7 @@ which of the following voliates the ANSI MISRA C standard
         j--;'
     </li> 
 </ul>
+
 ## Question 5 coded example. see practice_question.c in main
 
 
